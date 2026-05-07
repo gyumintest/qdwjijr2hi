@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_b2q.mk
+    $(LOCAL_DIR)/twrp_b2q.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_b2q-user \
-    omni_b2q-userdebug \
-    omni_b2q-eng
+    twrp_b2q-eng

@@ -13,13 +13,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit from b2q device
 $(call inherit-product, device/samsung/b2q/device.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := b2q
-PRODUCT_NAME := omni_b2q
+PRODUCT_NAME := twrp_b2q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-F711N
 PRODUCT_MANUFACTURER := samsung
